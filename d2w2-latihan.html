@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0" />
+		<title>Day 2 Week 2 - revou| test html 1</title>
+
+		<style>
+			table,
+			th,
+			td {
+				border: 1px solid black;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>Test 1</h1>
+		<p>
+			Test Latihan Website <i><b>Pertama</b></i>
+		</p>
+		<hr />
+		<ol type="a">
+			<li>Satu</li>
+			<li>Dua</li>
+		</ol>
+		<br />
+
+		<br />
+
+		<table>
+			<tr>
+				<th rowspan="2">Company</th>
+				<th>Contact</th>
+				<th>Country</th>
+			</tr>
+			<tr>
+				<td colspan="2">
+					<center>
+						Alfred Futterkiste
+					</center>
+				</td>
+				<td>Maria Anders</td>
+				<td>Germany</td>
+			</tr>
+			<tr>
+				<td>Centro comercial moctezuma</td>
+				<td>Francisco chang</td>
+				<td>Mexico</td>
+			</tr>
+		</table>
+
+		<hr />
+		<form action="" method="post">
+			<label for="name">Nama :</label>
+			<input type="text" id="name" />
+			<br />
+			<input type="password" required />
+			<br />
+			<input type="checkbox" />
+			<br />
+			<input type="number" min="1" max="10" />
+			<br />
+			<textarea cols="64" rows="8">
+Ketik disini</textarea
+			>
+			<br />
+			<input type="submit" value="Ok" />
+		</form>
+
+		<hr />
+		<hr />
+
+		<button type="button">Ok</button>
+		<button type="button" onclick="doSomething();">
+			Apply
+		</button>
+
+		<hr />
+		<h1>Select form</h1>
+
+		<p>Apa warna favoritmu?</p>
+		<select name="" id="">
+			<option value="">merah</option>
+			<option value="">Kuning</option>
+			<option value="">Biru</option>
+			<option value="">Hijau</option>
+		</select>
+
+		<p>apa makanan favoritmu?</p>
+		<select name="" id="">
+			<option value="" selected>Silahkan Pilih</option>
+			<option value="Papeda">Papeda</option>
+			<option value="Rendang">Rendang</option>
+			<option value="Kari">Kari</option>
+			<option value="Macho">Macho</option>
+		</select>
+
+		<p>Minuman Favoritmu?</p>
+		<select name="" id="">
+			<optgroup label="Jus Buah">
+				<option value="">Jus Apple</option>
+				<option value="">Jus Jeruk</option>
+				<option value="">Jus Mangga</option>
+			</optgroup>
+			<optgroup label="Jamu">
+				<option value="">Kencur</option>
+				<option value="">Asem</option>
+				<option value="">Brotowali</option>
+			</optgroup>
+		</select>
+
+		<hr />
+
+		<h1>Radio Button</h1>
+
+		<input
+			type="radio"
+			id="html"
+			name="fav_language"
+			value="HTML" />
+		<label for="html">HTML</label> <br />
+		<input
+			type="radio"
+			id="css"
+			name="fav_language"
+			value="CSS" />
+		<label for="css">CSS</label> <br />
+		<input
+			type="radio"
+			id="javascript"
+			name="fav_language"
+			value="JavaScript" />
+		<label for="javascript">JavaScript</label> <br />
+
+		<hr />
+		<h1>Fieldset</h1>
+
+		<fieldset>
+			<legend>Data Diri</legend>
+			<p>
+				<label for="nama">Nama :</label>
+				<input type="text" name="nama" />
+			</p>
+			<p>
+				<label for="usia">Usia :</label>
+				<input type="number" name="usia" />
+			</p>
+		</fieldset>
+
+		<hr />
+		<h1>HTML Layout</h1>
+
+		<header>Header</header>
+		<nav>Nav</nav>
+		<div class="content" style="display: inline-flex">
+			<div class="kiri" style="display: block">
+				<div><section>section</section></div>
+				<div><article>article</article></div>
+			</div>
+			<div class="kanan">
+				<aside>Aside</aside>
+			</div>
+		</div>
+		<footer>footer</footer>
+
+		<hr />
+
+		<article>
+			<header>
+				<h1>Judul Artikel</h1>
+				<p>Selamat Datang</p>
+			</header>
+			<main>
+				<p>
+					Ini Konten utama, Ini Konten
+					utama, Ini Konten utama
+				</p>
+				<p>Ini Konten utama</p>
+			</main>
+			<footer>
+				<p>Finish</p>
+			</footer>
+		</article>
+	</body>
+</html>

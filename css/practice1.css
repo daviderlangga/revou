@@ -1,0 +1,74 @@
+body {
+	width: 100vh;
+	margin: auto;
+}
+.main {
+	display: inline-flex;
+	width: 100vh;
+	margin: auto;
+}
+/* kiri */
+.kiri {
+	display: block;
+	width: 50%;
+	margin-right: 50px;
+}
+.form-input {
+	display: flex;
+	align-items: flex-start;
+	margin-bottom: 10px;
+}
+.form-label {
+	width: 150px;
+}
+.form-ttk2 {
+	width: 10px;
+}
+.form-isi {
+	width: 100%;
+}
+.form-radio {
+	display: inline;
+	width: 100%;
+	height: 15.2px;
+}
+.input-form {
+	width: 100%;
+	border-radius: 5px;
+	border-color: #d3d3d3;
+}
+textarea {
+	width: 100%;
+	height: 100px;
+}
+.submit {
+	width: 100%;
+}
+::placeholder {
+	color: #d3d3d3;
+}
+
+/* kanan */
+.kanan {
+	width: 50%;
+}
+table {
+	border-collapse: collapse;
+	width: 100%;
+}
+th {
+	background-color: #d3d3d3;
+	font-weight: bold;
+}
+th,
+td {
+	border: 1px solid #000000;
+	text-align: center;
+	padding: 8px;
+	font-size: 10px;
+	height: 40px;
+}
+img {
+	width: 15px;
+	height: 15px;
+}
