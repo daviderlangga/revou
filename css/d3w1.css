@@ -1,0 +1,46 @@
+body {
+    /* background-color: gray; */
+}
+h2 {
+    color: orange;
+    font-family: 'impact', Arial;
+    font-style: italic;
+    text-transform: uppercase;
+    text-decoration: line-trought;
+    text-shadow: -4px 4px 4px red;
+    line-height: 50%;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+    text-align: left;
+    text-indent: 2rem;
+}
+p {
+    color: red;
+}
+.mobil {
+    color: blue;
+}
+#avanza {
+    color: lightblue;
+}
+
+/* flex box navbar */
+.container {
+    border: 5px solid #ffcc5c;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.container > div {
+    padding: 10px;
+    text-align: center;
+    font-size: 14sp;
+    color: #ffeead;
+    border: 2px solid;
+    background-color: green;
+}
+img {
+    width: 40px;
+    height: 40px;
+    margin-right: auto;
+}
